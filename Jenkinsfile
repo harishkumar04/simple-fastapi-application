@@ -1,4 +1,5 @@
 pipeline {
+    
     environment {
     DOCKER_IMAGE = 'harishkumar09/fastapi-app:2.0.0'
     APP_NAME = 'harishkumar09/fastapi-app'
