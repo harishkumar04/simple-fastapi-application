@@ -13,5 +13,9 @@ def health():
     return {"status": "ok"}
 
 @app.get("/monitor")
-def health():
+def monitor():
     return {"status": "ok"}
+
+@app.get("/hello")
+def hello():
+    return {"hello"}
