@@ -1,9 +1,9 @@
 pipeline {
     
     environment {
-    DOCKER_IMAGE = 'harishkumar09/fastapi-app:2.0.0'
+    DOCKER_IMAGE = 'harishkumar09/fastapi-app:3.0.0'
     APP_NAME = 'harishkumar09/fastapi-app'
-    TAG_VERSION = '3.0.0'
+    TAG_VERSION = '4.0.0'
 }
     agent any
     stages {
